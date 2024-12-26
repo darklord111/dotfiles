@@ -96,12 +96,12 @@ set -gx LANG en_IN.UTF-8
 
 # IBus support
 
-set -gx GTK_IM_MODULE ibus
-set -gx GLFW_IM_MODULE ibus
-set -gx QT_IM_MODULE ibus
-set -gx XMODIFIERS @im=ibus
-set -gx INPUT_METHOD ibus
-set -gx SDL_IM_MODULE ibus
+set -gx GTK_IM_MODULE fcitx
+set -gx GLFW_IM_MODULE fcitx
+set -gx QT_IM_MODULE fcitx
+set -gx XMODIFIERS @im=fcitx
+set -gx INPUT_METHOD fcitx
+set -gx SDL_IM_MODULE fcitx
 
 # Wayland
 
