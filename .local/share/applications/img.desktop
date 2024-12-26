@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_IN]=
 Comment=
-Exec=/usr/bin/nsxiv %f
+Exec=/usr/bin/nsxiv -a %f
 GenericName[en_IN]=
 GenericName=
 Icon=image-png

@@ -5,16 +5,17 @@ application/x-extension-shtml=www.desktop
 application/x-extension-xht=www.desktop
 application/x-extension-xhtml=www.desktop
 application/xhtml+xml=www.desktop;mullvad-browser.desktop;www.desktop;
+image/gif=img.desktop;nsxiv.desktop;gimp.desktop;chromium.desktop;org.gnome.Loupe.desktop;firefox.desktop;okularApplication_kimgio.desktop;brave-browser.desktop;feh.desktop;
 image/jpeg=img.desktop
 text/calendar=mail.desktop
 text/html=www.desktop;mullvad-browser.desktop;www.desktop;
 x-scheme-handler/chrome=www.desktop
+x-scheme-handler/freetube=freetube.desktop;
 x-scheme-handler/ftp=www.desktop
 x-scheme-handler/http=www.desktop;mullvad-browser.desktop;www.desktop;
 x-scheme-handler/https=www.desktop;mullvad-browser.desktop;www.desktop;
 x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;mail.desktop;
 x-scheme-handler/msteams=teams.desktop;
-x-scheme-handler/freetube=freetube.desktop;
 
 [Default Applications]
 application/epub+zip=pdf.desktop
@@ -97,7 +98,7 @@ audio/x-wavpack=video.desktop
 image/apng=img.desktop
 image/avif=img.desktop
 image/bmp=img.desktop
-image/gif=img.desktop
+image/gif=img.desktop;
 image/heic=img.desktop
 image/jpeg=img.desktop
 image/jxl=img.desktop
@@ -163,10 +164,13 @@ video/x-theora=video.desktop
 video/x-theora+ogg=video.desktop
 x-scheme-handler/chrome=www.desktop
 x-scheme-handler/ferdium=ferdium.desktop
+x-scheme-handler/freetube=freetube.desktop
 x-scheme-handler/ftp=www.desktop
 x-scheme-handler/http=www.desktop
 x-scheme-handler/https=www.desktop
 x-scheme-handler/magnet=torrent.desktop
 x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;
 x-scheme-handler/msteams=teams.desktop
-x-scheme-handler/freetube=freetube.desktop
+
+[Removed Associations]
+image/gif=mpv.desktop;
