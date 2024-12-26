@@ -195,3 +195,8 @@ use_latest_tag=true
 [opensubtitles-com]
 source="pypi"
 pypi="opensubtitlescom"
+
+[bifrost-bin]
+source="github"
+github="zacharee/SamloaderKotlin"
+use_latest_tag=true
