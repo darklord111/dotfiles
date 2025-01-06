@@ -200,3 +200,13 @@ pypi="opensubtitlescom"
 source="github"
 github="zacharee/SamloaderKotlin"
 use_latest_tag=true
+
+[python-pytest-docker]
+source="github"
+github="avast/pytest-docker"
+use_latest_tag=true
+
+[python-primp-bin]
+source = "git"
+git = "https://github.com/deedy5/primp.git"
+prefix = "v"
