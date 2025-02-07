@@ -1,3 +1,1 @@
-#-S res:1080,hdr:sdr
 -S res:1080
-#--extractor-args="youtube:player_client=android,web"
