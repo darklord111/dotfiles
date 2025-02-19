@@ -210,3 +210,26 @@ use_latest_tag=true
 source = "git"
 git = "https://github.com/deedy5/primp.git"
 prefix = "v"
+
+[python-google-cloud-monitoring]
+source = "pypi"
+pypi = "google_cloud_monitoring"
+
+[python-google-cloud-trace]
+source = "pypi"
+pypi = "google_cloud_trace"
+
+[python-opencensus]
+source = "git"
+git = "https://github.com/census-instrumentation/opencensus-python.git"
+prefix = "v"
+include_regex = '^v[0-9]+\.[0-9]+\.[0-9]+(-[0-9]+\.[0-9]+\.[0-9]+)?$'
+from_pattern = "-"
+to_pattern = "_azure"
+sort_version_key = "vercmp"
+
+[python-opentelemetry]
+source = "github"
+github = "open-telemetry/opentelemetry-python"
+prefix = "v"
+use_latest_release = true
